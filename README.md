@@ -1,2 +1,2 @@
 # draw
-draw document
+draw chart
