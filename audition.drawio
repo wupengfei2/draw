@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T00:55:42.687Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pInj3s1rCotfDiFNCj-x" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-13T02:44:09.228Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8LY0LzcQwLn_vWvZA9D8" version="21.2.9" type="github" pages="2">
   <diagram name="Page-1" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="4143" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -256,6 +256,9 @@
         <mxCell id="nCrCXY3zVFdDt1ujvN8f-68" value="Spark" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
           <mxGeometry x="1600" y="2280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-22" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nCrCXY3zVFdDt1ujvN8f-70" target="OCg2FE8fCQZtAfVpKx0e-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nCrCXY3zVFdDt1ujvN8f-70" value="MapReduce" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1600" y="2640" width="120" height="60" as="geometry" />
         </mxCell>
@@ -280,6 +283,9 @@
         <mxCell id="nCrCXY3zVFdDt1ujvN8f-84" value="分布式调度" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="3610" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nCrCXY3zVFdDt1ujvN8f-86" target="OCg2FE8fCQZtAfVpKx0e-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nCrCXY3zVFdDt1ujvN8f-86" value="Yarn" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1600" y="3610" width="120" height="60" as="geometry" />
         </mxCell>
@@ -297,6 +303,9 @@
         </mxCell>
         <mxCell id="IheyrWSOqVSxkom78KFg-3" value="Flink" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
           <mxGeometry x="1600" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-20" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IheyrWSOqVSxkom78KFg-7" target="OCg2FE8fCQZtAfVpKx0e-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IheyrWSOqVSxkom78KFg-7" value="HDFS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1600" y="3720" width="120" height="60" as="geometry" />
@@ -531,6 +540,15 @@
         </mxCell>
         <mxCell id="OCg2FE8fCQZtAfVpKx0e-15" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;Concurrent包实现&lt;/div&gt;&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1600" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-17" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;任务调度流程&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="3610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-19" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;HDFS读写流程&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="3720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-21" value="&lt;div style=&quot;line-height: 1.75; font-size: 14px; text-align: left;&quot;&gt;Shuffle&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="2640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
