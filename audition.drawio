@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T11:26:16.986Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XVnPnapPJR_MSMN4y45c" version="21.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-13T11:39:40.018Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BIbLccHyL4IcHNM52gM5" version="21.2.9" type="github" pages="2">
   <diagram name="Page-1" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="3539" dy="1632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -448,6 +448,9 @@
         <mxCell id="OCg2FE8fCQZtAfVpKx0e-26" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7G7Ba6VFTLDL6SVrWHIJ-25" target="OCg2FE8fCQZtAfVpKx0e-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-59" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7G7Ba6VFTLDL6SVrWHIJ-25" target="OCg2FE8fCQZtAfVpKx0e-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7G7Ba6VFTLDL6SVrWHIJ-25" value="Hbase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
           <mxGeometry x="1600" y="3400" width="120" height="60" as="geometry" />
         </mxCell>
@@ -593,7 +596,7 @@
           <mxGeometry x="1880" y="3540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OCg2FE8fCQZtAfVpKx0e-25" value="优化优化经验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="3400" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="3320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OCg2FE8fCQZtAfVpKx0e-27" value="优化经验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1880" y="2960" width="120" height="60" as="geometry" />
@@ -645,6 +648,9 @@
         </mxCell>
         <mxCell id="OCg2FE8fCQZtAfVpKx0e-55" value="读写数据保证不丢失" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1880" y="3480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OCg2FE8fCQZtAfVpKx0e-58" value="RowKey设计" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="3400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
