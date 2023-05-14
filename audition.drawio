@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T10:05:47.228Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rG_bx6WR8FWPb3xzw-K_" version="21.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-14T10:11:07.363Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="g1gwZ9HUNpA6WsezylSE" version="21.2.9" type="github" pages="4">
   <diagram name="Page-1" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="4756" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4078,7 +4078,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uhTpbKWUm8ZBmFY0QlCu" name="推荐架构">
-    <mxGraphModel dx="2049" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4294,7 +4294,12 @@
         <mxCell id="8m1KsjA1RHZkoVMRcy5C-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnksEbwsAXBIlrpLrc5S-1" target="8m1KsjA1RHZkoVMRcy5C-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZlyYKuFRmh3SjuBuL7XL-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnksEbwsAXBIlrpLrc5S-1" target="ZlyYKuFRmh3SjuBuL7XL-1">
+        <mxCell id="gIDX7xgOmTUYU7zVbXis-2" value="获取实时特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8m1KsjA1RHZkoVMRcy5C-2">
+          <mxGeometry x="-0.0701" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZlyYKuFRmh3SjuBuL7XL-2" value="获取离线特征" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnksEbwsAXBIlrpLrc5S-1" target="ZlyYKuFRmh3SjuBuL7XL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pnksEbwsAXBIlrpLrc5S-1" value="FS" style="whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -4426,6 +4431,9 @@
         </mxCell>
         <mxCell id="Rj4j-BVx6-fIKQUDla7s-1" value="Ceph&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;离线特征切片&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;序列化（FLVLV）" style="whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;rounded=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="3240" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gIDX7xgOmTUYU7zVbXis-3" value="1、一次预估请求包含：一个用户特征和1000个广告特征&lt;br&gt;2、因为有1000个广告特征，所以线上落的物品特征太大，所以先落物品特征的版本号&lt;br&gt;3、根据物品特征的版本号获取对应的特征" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="750" width="480" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
