@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-14T10:50:05.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GVFdmtQ6QT42FOc7Tfnd" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-14T10:53:56.744Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lwiIwnMk_sQG8z6GIjil" version="21.2.9" type="github" pages="3">
   <diagram name="Page-1" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="4756" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4078,7 +4078,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uhTpbKWUm8ZBmFY0QlCu" name="推荐系统架构">
-    <mxGraphModel dx="2868" dy="1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4312,9 +4312,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZlyYKuFRmh3SjuBuL7XL-2" value="获取离线特征" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pnksEbwsAXBIlrpLrc5S-1" target="ZlyYKuFRmh3SjuBuL7XL-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="by3KP4aYcG1WHXAXFqWZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pnksEbwsAXBIlrpLrc5S-1" target="by3KP4aYcG1WHXAXFqWZ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pnksEbwsAXBIlrpLrc5S-1" value="FS" style="whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
@@ -4839,8 +4836,8 @@
         <mxCell id="rwdNAU3MR1qB6B20kL1m-104" value="HDFS&lt;br&gt;特征抽取完的slot特征" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;rounded=1;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1040" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="by3KP4aYcG1WHXAXFqWZ-1" value="Hbase特征仓库&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Offline/Online Feature&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Bulkload&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3320" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="by3KP4aYcG1WHXAXFqWZ-1" value="Hbase特征仓库&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Offline/Online Feature &lt;br&gt;带版本号用于特征回溯&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Bulkload&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="410" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LRrn_kE6CH5sDrrmMHDQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LRrn_kE6CH5sDrrmMHDQ-1" target="by3KP4aYcG1WHXAXFqWZ-1">
           <mxGeometry relative="1" as="geometry">
