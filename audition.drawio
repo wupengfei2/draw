@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T13:39:13.981Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="9OqNBy6OVLwg0B9tMlIs" version="21.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:47:23.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="g7GA7OWmU_jRwFkaSSSd" version="21.3.0" type="github" pages="3">
   <diagram name="知识体系" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="3794" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4936,16 +4936,11 @@
         <mxCell id="NCcpGPSEJy8Tvy87EKag-1" value="Spark" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="290" y="2710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NCcpGPSEJy8Tvy87EKag-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NCcpGPSEJy8Tvy87EKag-2" target="NCcpGPSEJy8Tvy87EKag-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="764.9999999999998" y="2820" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="765" y="2810" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="3rrlfCkU8E3_duLdqRiu-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NCcpGPSEJy8Tvy87EKag-2" target="NCcpGPSEJy8Tvy87EKag-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-2" value="Nginx" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="565" y="2790" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="2790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="NCcpGPSEJy8Tvy87EKag-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -4998,16 +4993,6 @@
         <mxCell id="NCcpGPSEJy8Tvy87EKag-21" value="Tomcat3" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1155" y="2802.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NCcpGPSEJy8Tvy87EKag-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="685" y="2831" as="sourcePoint" />
-            <mxPoint x="820" y="2830" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="765" y="2831" />
-              <mxPoint x="765" y="2830" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ZK集群：存储最新的配置（各个客户端每次获取的token数）&lt;/font&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;arcSize=10;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="817.5" y="3000" width="485" height="130" as="geometry" />
         </mxCell>
@@ -5020,7 +5005,7 @@
         <mxCell id="NCcpGPSEJy8Tvy87EKag-29" value="ZK3" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1155" y="3040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e7TDNod-pM8VxumaUs8V-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;分布式限流服务&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="e7TDNod-pM8VxumaUs8V-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;分布式限流服务&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="400" y="2572" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
