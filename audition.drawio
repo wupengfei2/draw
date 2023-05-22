@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T13:26:19.743Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-uQinhmlAVTEi-OoIvgb" version="21.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-22T13:34:23.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="TmsNmIjLzYNn2V0bdow2" version="21.3.0" type="github" pages="3">
   <diagram name="知识体系" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="3794" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4953,6 +4953,11 @@
             <mxPoint x="1064.9999999999998" y="2592.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NCcpGPSEJy8Tvy87EKag-32" value="获取Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCcpGPSEJy8Tvy87EKag-11">
+          <mxGeometry x="0.1983" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NCcpGPSEJy8Tvy87EKag-6" target="NCcpGPSEJy8Tvy87EKag-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="2880" as="targetPoint" />
@@ -4962,19 +4967,24 @@
           <mxGeometry x="290" y="2840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Redis集群：存储每个Redis集群的总Token数&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="820" y="2477.5" width="490" height="110" as="geometry" />
+          <mxGeometry x="820" y="2520" width="490" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-13" value="Redis实例1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="845" y="2509.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="845" y="2552" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-14" value="Redis实例2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="2509.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1005" y="2552" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-16" value="Redis实例3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1175" y="2509.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="1175" y="2552" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="NCcpGPSEJy8Tvy87EKag-18" target="NCcpGPSEJy8Tvy87EKag-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NCcpGPSEJy8Tvy87EKag-33" value="Watch最新的配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NCcpGPSEJy8Tvy87EKag-26">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Tomcat集群&lt;/font&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="820" y="2757.5" width="480" height="125" as="geometry" />
