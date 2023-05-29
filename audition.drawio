@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-28T13:09:59.261Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GImul97tY5P5o5MEnECr" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-29T03:21:18.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_lwr7WVeALY8EGKJho6t" version="21.2.9" type="github" pages="3">
   <diagram name="知识体系" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="3794" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4138,7 +4138,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uhTpbKWUm8ZBmFY0QlCu" name="推荐系统架构">
-    <mxGraphModel dx="2049" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1466" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4356,6 +4356,15 @@
         <mxCell id="SQYhG-MQssjMlVeHBjU--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="SQYhG-MQssjMlVeHBjU--6" target="SQYhG-MQssjMlVeHBjU--8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3HHZ_N5A9g26DtA9C2lz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQYhG-MQssjMlVeHBjU--6" target="3HHZ_N5A9g26DtA9C2lz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2460" y="300" />
+              <mxPoint x="2620" y="300" />
+              <mxPoint x="2620" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SQYhG-MQssjMlVeHBjU--6" value="Flink" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2400" y="350" width="120" height="60" as="geometry" />
         </mxCell>
@@ -4391,6 +4400,16 @@
         </mxCell>
         <mxCell id="3HHZ_N5A9g26DtA9C2lz-8" value="获取离线特征2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3HHZ_N5A9g26DtA9C2lz-7">
           <mxGeometry x="-0.0901" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3HHZ_N5A9g26DtA9C2lz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pnksEbwsAXBIlrpLrc5S-1" target="3HHZ_N5A9g26DtA9C2lz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3030" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3HHZ_N5A9g26DtA9C2lz-16" value="获取物品/广告特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3HHZ_N5A9g26DtA9C2lz-15">
+          <mxGeometry x="0.1063" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -5051,6 +5070,9 @@
         </mxCell>
         <mxCell id="3HHZ_N5A9g26DtA9C2lz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QGZ77KK4O6NOb6rktY8W-1" target="QGZ77KK4O6NOb6rktY8W-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HHZ_N5A9g26DtA9C2lz-12" value="Redis&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Iterm Feature&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;（Key : ItermId, Value: ItermFeature&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="100" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
