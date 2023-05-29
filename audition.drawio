@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T03:21:18.109Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="_lwr7WVeALY8EGKJho6t" version="21.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-29T03:23:22.876Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="01cW0ZPDErv0-LG0HUbC" version="21.2.9" type="github" pages="3">
   <diagram name="知识体系" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="3794" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4365,6 +4365,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="3HHZ_N5A9g26DtA9C2lz-17" value="写物品特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3HHZ_N5A9g26DtA9C2lz-13">
+          <mxGeometry x="0.2681" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SQYhG-MQssjMlVeHBjU--6" value="Flink" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2400" y="350" width="120" height="60" as="geometry" />
         </mxCell>
@@ -4530,13 +4535,16 @@
         <mxCell id="wlUVb3zF3zZSZ0xGGreJ-1" value="HDFS&lt;br&gt;离线特征&lt;br style=&quot;border-color: var(--border-color); color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;SequenceFile&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;rounded=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="3904" y="736" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cZLCvX0jUWmwh0OAJ7-c-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QGZ77KK4O6NOb6rktY8W-1" target="ZlyYKuFRmh3SjuBuL7XL-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3480" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="3HHZ_N5A9g26DtA9C2lz-2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QGZ77KK4O6NOb6rktY8W-1" target="3HHZ_N5A9g26DtA9C2lz-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3HHZ_N5A9g26DtA9C2lz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QGZ77KK4O6NOb6rktY8W-1" target="ZlyYKuFRmh3SjuBuL7XL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3700" y="656" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3700" y="436" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QGZ77KK4O6NOb6rktY8W-1" value="Spark&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;灌库&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="3640" y="736" width="120" height="60" as="geometry" />
