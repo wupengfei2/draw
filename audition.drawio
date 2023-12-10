@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T03:53:49.246Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BdBnrsJEkwfXxFly8uci" version="22.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-10T03:55:30.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="opMyWMOkgFcRtUvIu6M3" version="22.1.7" type="github" pages="3">
   <diagram name="知识体系" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="8286" dy="4160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -5144,7 +5144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JZ0pp-QRl6ef3EKqax02-1" value="模型训练" style="whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="1080" width="120" height="60" as="geometry" />
+          <mxGeometry x="1360" y="1000" width="380" height="220" as="geometry" />
         </mxCell>
         <mxCell id="NCcpGPSEJy8Tvy87EKag-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NCcpGPSEJy8Tvy87EKag-1" target="NCcpGPSEJy8Tvy87EKag-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
