@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T03:55:30.542Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="opMyWMOkgFcRtUvIu6M3" version="22.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-10T03:58:30.956Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oPE4R9VG9ZI6Qz_fHp3D" version="22.1.7" type="github" pages="3">
   <diagram name="知识体系" id="CdU_I9wvN4Hp2rFMaPJO">
     <mxGraphModel dx="8286" dy="4160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -4300,7 +4300,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uhTpbKWUm8ZBmFY0QlCu" name="推荐系统架构">
-    <mxGraphModel dx="1687" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4542,6 +4542,9 @@
           <mxGeometry x="-0.0213" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7m3NbjMRULkn8dSR2h62-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQYhG-MQssjMlVeHBjU--8" target="7m3NbjMRULkn8dSR2h62-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SQYhG-MQssjMlVeHBjU--8" value="Kafka&lt;br&gt;Iterm Feature Source" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;rounded=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="2680" y="350" width="120" height="60" as="geometry" />
@@ -5247,6 +5250,9 @@
         </mxCell>
         <mxCell id="3HHZ_N5A9g26DtA9C2lz-12" value="Redis&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Iterm Feature&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;（Key : ItermId, Value: ItermFeature&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;gradientColor=#97d077;" parent="1" vertex="1">
           <mxGeometry x="2920" y="100" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7m3NbjMRULkn8dSR2h62-2" value="单独的物料生产链路" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;rounded=1;fontColor=#ffffff;gradientColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
