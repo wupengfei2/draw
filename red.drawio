@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T06:40:59.846Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="GB1BFFFHXtpUCaeNYDVr" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T08:01:15.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="U2k1JE_ZNLYhOsg47Zww" version="22.1.21" type="github">
   <diagram name="Page-1" id="i_hFuDhX6voU7J-K0fBx">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="Olyu-w_eP48Fr1E_7s6x-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Olyu-w_eP48Fr1E_7s6x-6" target="Olyu-w_eP48Fr1E_7s6x-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Olyu-w_eP48Fr1E_7s6x-6" value="Hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Olyu-w_eP48Fr1E_7s6x-6" value="Hive&lt;br&gt;(小时级分区)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Olyu-w_eP48Fr1E_7s6x-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Olyu-w_eP48Fr1E_7s6x-8" target="Olyu-w_eP48Fr1E_7s6x-4">
@@ -45,9 +45,6 @@
         <mxCell id="Olyu-w_eP48Fr1E_7s6x-12" value="点好Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Olyu-w_eP48Fr1E_7s6x-14" value="小时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="500" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Olyu-w_eP48Fr1E_7s6x-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Olyu-w_eP48Fr1E_7s6x-15" target="Olyu-w_eP48Fr1E_7s6x-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -55,7 +52,7 @@
           <mxGeometry x="760" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Olyu-w_eP48Fr1E_7s6x-17" value="ARK" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="960" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
