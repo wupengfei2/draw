@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T11:39:59.964Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="NYRLBeJyXNzgCstY-PAS" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T08:57:49.640Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="qNQu9Um_x1p2jVHlNf3e" version="23.1.1" type="github">
   <diagram name="Page-1" id="i_hFuDhX6voU7J-K0fBx">
-    <mxGraphModel dx="5285" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3493" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -699,6 +699,94 @@
         </mxCell>
         <mxCell id="Ssv76UTOe1hx6nXqf63F-518" value="&lt;span style=&quot;font-size: 22px; text-align: left; background-color: initial;&quot;&gt;拆分新类目，回溯链路&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1120" y="4780" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2485" y="650" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-3" target="WMNN-Pkor4jctKTIM-oG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-3" value="数据源&lt;br&gt;（Kafka/Hive等）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-5" target="WMNN-Pkor4jctKTIM-oG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-5" value="Flink" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-8" target="WMNN-Pkor4jctKTIM-oG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-7" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-8" target="WMNN-Pkor4jctKTIM-oG-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-8" value="Hbase" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="750" width="90" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-11" target="WMNN-Pkor4jctKTIM-oG-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2400" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-10" value="实时索引构建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WMNN-Pkor4jctKTIM-oG-9">
+          <mxGeometry x="0.2553" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-11" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="692" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-13" target="WMNN-Pkor4jctKTIM-oG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-13" value="HDFS&lt;br&gt;花果山" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="832" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-15" target="WMNN-Pkor4jctKTIM-oG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-15" value="MR（批量索引构建）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2430" y="832" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-17" target="WMNN-Pkor4jctKTIM-oG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-17" value="Autobusts&lt;br&gt;Redcast&lt;br&gt;索引分发&lt;br&gt;（索引多版本控制，支持索引切换）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2635" y="832" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-18" value="引擎（LSE/LRE/LDS/LVE）&lt;br&gt;索引切换" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="692" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-20" target="WMNN-Pkor4jctKTIM-oG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2290" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-20" value="Flink&lt;br&gt;（Embedding/分词/RPC）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="692" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-22" target="WMNN-Pkor4jctKTIM-oG-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2090" y="862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-22" value="Spark&lt;br&gt;（Embedding/分词/RPC）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="832" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-24" target="WMNN-Pkor4jctKTIM-oG-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-24" value="数据源&lt;br&gt;（HDFS/Hive等）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-25" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="WMNN-Pkor4jctKTIM-oG-26" target="WMNN-Pkor4jctKTIM-oG-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="921" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMNN-Pkor4jctKTIM-oG-26" value="Spark/Hive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="850" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
