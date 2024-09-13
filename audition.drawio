@@ -5419,10 +5419,10 @@
           <mxGeometry x="440" y="4720" width="600" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3OCX9eXjCIV4RkkzfkQF-18" value="元数据管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="535" y="4310" width="120" height="50" as="geometry" />
+          <mxGeometry x="560" y="4310" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3OCX9eXjCIV4RkkzfkQF-19" value="血缘关系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="810" y="4310" width="120" height="50" as="geometry" />
+          <mxGeometry x="820" y="4310" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
