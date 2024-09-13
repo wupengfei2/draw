@@ -5376,16 +5376,16 @@
         <mxCell id="7m3NbjMRULkn8dSR2h62-37" value="下游" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="3640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3OCX9eXjCIV4RkkzfkQF-1" value="开发模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="3OCX9eXjCIV4RkkzfkQF-1" value="开发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="320" y="4380" width="120" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="3OCX9eXjCIV4RkkzfkQF-2" value="特征运维" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="3OCX9eXjCIV4RkkzfkQF-2" value="运维" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="320" y="4730" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3OCX9eXjCIV4RkkzfkQF-3" value="元数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="320" y="4280" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="3OCX9eXjCIV4RkkzfkQF-4" value="元数据管理" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="3OCX9eXjCIV4RkkzfkQF-4" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="440" y="4280" width="600" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3OCX9eXjCIV4RkkzfkQF-5" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -5417,6 +5417,12 @@
         </mxCell>
         <mxCell id="3OCX9eXjCIV4RkkzfkQF-15" value="监控服务" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="440" y="4730" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3OCX9eXjCIV4RkkzfkQF-18" value="元数据管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="535" y="4300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3OCX9eXjCIV4RkkzfkQF-19" value="血缘关系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="810" y="4300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
