@@ -940,10 +940,18 @@
         <mxCell id="D65owiuAMq8dSTWbB2WF-14" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D65owiuAMq8dSTWbB2WF-9" target="D65owiuAMq8dSTWbB2WF-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="D65owiuAMq8dSTWbB2WF-29" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D65owiuAMq8dSTWbB2WF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="6820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="D65owiuAMq8dSTWbB2WF-9" value="RedKv&lt;div&gt;（物料/笔记特征）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="6520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D65owiuAMq8dSTWbB2WF-15" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D65owiuAMq8dSTWbB2WF-11" target="D65owiuAMq8dSTWbB2WF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D65owiuAMq8dSTWbB2WF-31" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D65owiuAMq8dSTWbB2WF-11" target="D65owiuAMq8dSTWbB2WF-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D65owiuAMq8dSTWbB2WF-11" value="RedKv&lt;div&gt;(用户特征)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -985,8 +993,8 @@
         <mxCell id="D65owiuAMq8dSTWbB2WF-24" value="Spark离线拼接任务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="383" y="6790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="D65owiuAMq8dSTWbB2WF-26" value="数据湖" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="583" y="6790" width="120" height="60" as="geometry" />
+        <mxCell id="D65owiuAMq8dSTWbB2WF-26" value="数据湖&lt;div&gt;用户特征分支、物料/笔记特征分支、label分支&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="583" y="6790" width="267" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
