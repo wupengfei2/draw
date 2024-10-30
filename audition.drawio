@@ -4369,7 +4369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uhTpbKWUm8ZBmFY0QlCu" name="推荐系统架构">
-    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5423,6 +5423,46 @@
         </mxCell>
         <mxCell id="3OCX9eXjCIV4RkkzfkQF-19" value="血缘关系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="820" y="4310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfl6h5hYJSB25UMFRu-M-1" target="yfl6h5hYJSB25UMFRu-M-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yfl6h5hYJSB25UMFRu-M-1" target="yfl6h5hYJSB25UMFRu-M-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-1" value="Kafka&lt;div&gt;（物料特征的变更字段）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="3530" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfl6h5hYJSB25UMFRu-M-3" target="yfl6h5hYJSB25UMFRu-M-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-8" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfl6h5hYJSB25UMFRu-M-3" target="yfl6h5hYJSB25UMFRu-M-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="yfl6h5hYJSB25UMFRu-M-3" target="yfl6h5hYJSB25UMFRu-M-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="3450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1860" y="3430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-14" value="获取历史版本特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yfl6h5hYJSB25UMFRu-M-11">
+          <mxGeometry x="0.2062" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-3" value="Flink&lt;div&gt;（历史特征merge变更字段&amp;amp;更新版本号）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="3530" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-5" value="Redis&lt;div&gt;（物料特征含版本号）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="3400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-7" value="Hbase&lt;div&gt;（物料特征含版本号）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="3580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfl6h5hYJSB25UMFRu-M-12" value="物料特征变更内容" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="3530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
